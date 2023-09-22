@@ -1,3 +1,13 @@
+import Content from "@/components/Content";
+import Sidebar from "@/components/Sidebar";
+
 export default function Home() {
-  return <h1>Welcome to my twitter clone</h1>;
+  return (
+    <>
+      <div className="max-w-7xl mx-auto">
+        <Sidebar />
+        <Content />
+      </div>
+    </>
+  );
 }
